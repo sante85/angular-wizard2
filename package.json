@@ -1,15 +1,12 @@
 {
-  "name": "angular-wizard-7",
+  "name": "angular-wizard2",
   "version": "1.0.1",
   "description": "An angular 5+ module containing a wizard component and its supporting components and directives",
   "homepage": "https://github.com/masvis/angular-archwizard",
-  "author": {
-    "name": "Marc Arndt",
-    "email": "marc.arndt@masimi.de"
-  },
+  "author": "Marc Arndt <marc.arndt@masimi.de>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/masvis/angular-archwizard"
+    "url": "git+https://github.com/masvis/angular-archwizard.git"
   },
   "bugs": {
     "url": "https://github.com/masvis/angular-archwizard/issues"
@@ -75,5 +72,8 @@
   },
   "peerDependencies": {
     "@angular/common": "5.x, 6.x, 7.x"
-  }
+  },
+  "main": "dist/index.d.ts",
+  "dependencies": {},
+  "license": "ISC"
 }
