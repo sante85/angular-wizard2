@@ -1,6 +1,6 @@
 // color definitions
 @wz-color-default: #E6E6E6;
-@wz-color-current: #808080;
+@wz-color-current: #39a3f4;
 @wz-color-done: #339933;
 @wz-color-optional: #38ef38;
 @wz-color-editing: #FF0000;
@@ -11,6 +11,9 @@
 // small definitions
 @small-dot-width: 14px;
 @small-dot-height: 14px;
+
+@medium-dot-width: 28px;
+@medium-dot-height: 28px;
 
 // big definitions
 @big-dot-width: 50px;
@@ -171,6 +174,13 @@ aw-wizard-navigation-bar.horizontal {
     .state-hover(@color) { .state-circle-with-background-hover(@color); }
     .state-nohover(@color) { .state-circle-with-background-nohover(@color); }
     .define-style(@width: @small-dot-width, @height: @small-dot-height, @border-width: 0);
+  }
+
+  &.medium ul.steps-indicator {
+    .state-default(@color) { .state-circle-with-background(@color); }
+    .state-hover(@color) { .state-circle-with-background-hover(@color); }
+    .state-nohover(@color) { .state-circle-with-background-nohover(@color); }
+    .define-style(@width: @medium-dot-width, @height: @medium-dot-height, @border-width: 0);
   }
 
   &.large-filled ul.steps-indicator {

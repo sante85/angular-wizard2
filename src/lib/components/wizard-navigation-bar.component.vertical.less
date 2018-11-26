@@ -12,6 +12,9 @@
 @small-dot-width: 14px;
 @small-dot-height: 14px;
 
+@medium-dot-width: 28px;
+@medium-dot-height: 28px;
+
 // big definitions
 @big-dot-width: 50px;
 @big-dot-height: 50px;
@@ -182,6 +185,13 @@ aw-wizard-navigation-bar.vertical {
     .state-hover(@color) { .state-circle-with-background-hover(@color); }
     .state-nohover(@color) { .state-circle-with-background-nohover(@color); }
     .define-style(@width: @small-dot-width, @height: @small-dot-height, @border-width: 0);
+  }
+
+  &.medium ul.steps-indicator {
+    .state-default(@color) { .state-circle-with-background(@color); }
+    .state-hover(@color) { .state-circle-with-background-hover(@color); }
+    .state-nohover(@color) { .state-circle-with-background-nohover(@color); }
+    .define-style(@width: @medium-dot-width, @height: @medium-dot-height, @border-width: 0);
   }
 
   &.large-filled ul.steps-indicator {
