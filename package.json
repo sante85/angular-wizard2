@@ -1,15 +1,15 @@
 {
-  "name": "angular-wizard2",
-  "version": "1.0.1",
+  "name": "angular-wizard-2",
+  "version": "1.0.2",
   "description": "An angular 5+ module containing a wizard component and its supporting components and directives",
   "homepage": "https://github.com/masvis/angular-archwizard",
   "author": "Marc Arndt <marc.arndt@masimi.de>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masvis/angular-archwizard.git"
+    "url": "git+https://github.com/sante85/angular-wizard2.git"
   },
   "bugs": {
-    "url": "https://github.com/masvis/angular-archwizard/issues"
+    "url": "https://github.com/sante85/angular-wizard2/issues"
   },
   "keywords": [
     "angular",
