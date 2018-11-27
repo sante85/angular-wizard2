@@ -35,6 +35,7 @@
   width: calc(100% ~'-' @dot-width);
   top: -(@dot-baseline-distance + @dot-height / 2);
   left: calc(50% ~'+' @dot-width / 2);
+  transition: 0.25s;
 }
 
 .state-circle(@dot-width, @dot-height, @dot-border-width) {
@@ -117,6 +118,8 @@
 // In addition to @color argument, in every helper mixin you can use @width, @height, @border-width variables
 // passed through the `.define-style` mixin.
 //
+
+
 .define-style(@width: @big-dot-height, @height: @big-dot-height, @border-width: @dot-border-width) {
   padding: (@dot-baseline-distance + @height + @text-padding-bottom) 0 @text-padding-bottom 0;
 
@@ -124,7 +127,6 @@
     &:not(:last-child):before {
       .line(@width, @height, @wz-color-default);
     }
-
     .step-indicator {
       .state-circle(@width, @height, @border-width);
       .state-default(@wz-color-default);
@@ -265,6 +267,30 @@ aw-wizard-navigation-bar.horizontal {
 
     &.steps-10 {
       .steps(10);
+    }
+
+    &.steps-11 {
+      .steps(11);
+    }
+
+    &.steps-12 {
+      .steps(12);
+    }
+
+    &.steps-13 {
+      .steps(13);
+    }
+
+    &.steps-14 {
+      .steps(15);
+    }
+
+    &.steps-15 {
+      .steps(15);
+    }
+
+    &.steps-16 {
+      .steps(16);
     }
 
     // http://www.paulirish.com/2012/box-sizing-border-box-ftw/

@@ -79,6 +79,10 @@ export class WizardNavigationBarComponent {
     return wizardStep.selected && !wizardStep.completed && !this.wizardState.completed;
   }
 
+  public isActive(wizardStep: WizardStep): boolean {
+    return wizardStep.selected;
+  }
+
   /**
    * Checks, whether a [[WizardStep]] can be marked as `done` in the navigation bar
    *
