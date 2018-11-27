@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "",
   "projects": {
-    "angular-archwizard": {
+    "angular-wizard-2": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "library",
@@ -40,5 +40,5 @@
       }
     }
   },
-  "defaultProject": "angular-archwizard"
+  "defaultProject": "angular-wizard-2"
 }
